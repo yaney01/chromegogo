@@ -145,32 +145,13 @@ proxies:
   auth_str: dongtaiwang.com
   up: 2
   down: 10
-- name: meta_vless_81
-  type: vless
-  server: dongtaiwang3.com
-  port: 443
-  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
-  tls: true
-  servername: dongtaiwang.dtku47.xyz
-  network: ws
-  ws-opts:
-    path: /eobjws
-    headers:
-      host: dongtaiwang.dtku47.xyz
-  client-fingerprint: chrome
-- name: meta_vless_82
-  type: vless
-  server: dongtaiwang2.com
-  port: 443
-  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
-  tls: true
-  servername: dongtaiwang.dtku47.xyz
-  network: ws
-  ws-opts:
-    path: /eobjws
-    headers:
-      host: dongtaiwang.dtku47.xyz
-  client-fingerprint: chrome
+- name: meta_hysteria2_81
+  type: hysteria2
+  server: 108.181.24.77
+  port: 18775
+  password: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
 - name: meta_hysteria_91
   type: hysteria
   server: 62.204.54.81
@@ -254,8 +235,7 @@ proxy-groups:
   - meta_vmess_51
   - meta_hysteria_61
   - meta_hysteria_71
-  - meta_vless_81
-  - meta_vless_82
+  - meta_hysteria2_81
   - meta_hysteria_91
   - hysteria_0
   - hysteria_1
@@ -276,8 +256,7 @@ proxy-groups:
   - meta_vmess_51
   - meta_hysteria_61
   - meta_hysteria_71
-  - meta_vless_81
-  - meta_vless_82
+  - meta_hysteria2_81
   - meta_hysteria_91
   - hysteria_0
   - hysteria_1
