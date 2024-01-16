@@ -145,6 +145,17 @@ proxies:
   auth_str: dongtaiwang.com
   up: 2
   down: 10
+- name: meta_hysteria_81
+  type: hysteria
+  server: 64.110.25.10
+  port: 44556
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
 - name: meta_hysteria_91
   type: hysteria
   server: 62.204.54.81
@@ -228,6 +239,7 @@ proxy-groups:
   - meta_vmess_51
   - meta_hysteria_61
   - meta_hysteria_71
+  - meta_hysteria_81
   - meta_hysteria_91
   - hysteria_0
   - hysteria_1
@@ -248,6 +260,7 @@ proxy-groups:
   - meta_vmess_51
   - meta_hysteria_61
   - meta_hysteria_71
+  - meta_hysteria_81
   - meta_hysteria_91
   - hysteria_0
   - hysteria_1
