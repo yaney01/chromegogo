@@ -56,15 +56,15 @@ proxies:
 - name: meta_vless_03
   type: vless
   server: 108.181.5.130
-  port: 17346
+  port: 20221
   udp: true
-  uuid: 7fc88217-1b18-49b7-bc50-bfe379dc6bf7
+  uuid: 8eb74635-0857-4673-9965-f6d928b420c9
   tls: true
-  servername: d1.awsstatic.com
+  servername: www.lovelive-anime.jp
   flow: xtls-rprx-vision
   network: tcp
   reality-opts:
-    public-key: O5x9mSGdETFh_ql4m_2dPEUNBVwCly9XSi9pu1teLls
+    public-key: abc-YDOgV8WkuXRT9bJH-N_E6LaLJ9_7Sfc5OGajaSU
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
 - name: meta_vless_11
