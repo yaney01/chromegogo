@@ -101,14 +101,19 @@ proxies:
   client-fingerprint: chrome
 - name: meta_vmess_21
   type: vmess
-  server: 108.181.2.154
-  port: 33445
+  server: 23.227.39.52
+  port: 8080
   cipher: auto
-  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
+  uuid: 87ed7bbb-7ecb-435c-975b-cd55a760bcb5
   alterId: 0
   tls: false
   skip-cert-verify: true
-  network: tcp
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /H76zeQJw/
+    headers:
+      host: 0.freegradely.xyz
 - name: meta_vmess_31
   type: vmess
   server: 108.181.5.18
@@ -122,14 +127,19 @@ proxies:
   network: tcp
 - name: meta_vmess_41
   type: vmess
-  server: 108.181.2.154
-  port: 33445
+  server: 23.227.39.52
+  port: 8080
   cipher: auto
-  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
+  uuid: 87ed7bbb-7ecb-435c-975b-cd55a760bcb5
   alterId: 0
   tls: false
   skip-cert-verify: true
-  network: tcp
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /H76zeQJw/
+    headers:
+      host: 0.freegradely.xyz
 - name: meta_vmess_51
   type: vmess
   server: 108.181.5.18
