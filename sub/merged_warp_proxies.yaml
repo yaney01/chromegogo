@@ -126,17 +126,17 @@ proxies:
     public-key: TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
-- name: meta_vmess_51
-  type: vmess
-  server: 108.181.5.18
-  port: 18657
-  cipher: auto
-  uuid: 636ba072-493e-4235-b7a8-822bd4e340d5
-  alterId: 0
-  tls: false
+- name: meta_hysteria_51
+  type: hysteria
+  server: 108.181.5.20
+  port: 22881
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
   skip-cert-verify: true
-  servername: ''
-  network: tcp
 - name: meta_hysteria_61
   type: hysteria
   server: www2.dtku48.xyz
@@ -272,7 +272,7 @@ proxy-groups:
   - meta_ssr_21
   - meta_hysteria_31
   - meta_vless_41
-  - meta_vmess_51
+  - meta_hysteria_51
   - meta_hysteria_61
   - meta_hysteria_71
   - hysteria_0
@@ -291,7 +291,7 @@ proxy-groups:
   - meta_ssr_21
   - meta_hysteria_31
   - meta_vless_41
-  - meta_vmess_51
+  - meta_hysteria_51
   - meta_hysteria_61
   - meta_hysteria_71
   - hysteria_0
@@ -310,7 +310,7 @@ proxy-groups:
   - meta_ssr_21
   - meta_hysteria_31
   - meta_vless_41
-  - meta_vmess_51
+  - meta_hysteria_51
   - meta_hysteria_61
   - meta_hysteria_71
   - hysteria_0
