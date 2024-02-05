@@ -126,6 +126,17 @@ proxies:
   auth_str: dongtaiwang.com
   up: 2
   down: 10
+- name: meta_hysteria_91
+  type: hysteria
+  server: www2.dtku48.xyz
+  port: 22334
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
 - name: hysteria_0
   type: hysteria
   server: 51.158.54.46
@@ -224,6 +235,7 @@ proxy-groups:
   - meta_tuic_51
   - meta_hysteria_61
   - meta_hysteria_71
+  - meta_hysteria_91
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -244,6 +256,7 @@ proxy-groups:
   - meta_tuic_51
   - meta_hysteria_61
   - meta_hysteria_71
+  - meta_hysteria_91
   - hysteria_0
   - hysteria_1
   - hysteria_2
