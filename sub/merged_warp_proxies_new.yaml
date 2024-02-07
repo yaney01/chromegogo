@@ -71,10 +71,10 @@ proxies:
   congestion-controller: bbr
 - name: meta_tuic_21
   type: tuic
-  server: 108.181.2.158
-  port: 33440
+  server: 1.162.136.33
+  port: 33098
   udp: true
-  uuid: 996c2970-ec1c-4659-9c5f-b3609c42a764
+  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
   password: dongtaiwang.com
   alpn:
   - h3
@@ -224,20 +224,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: reality_0
-  type: vless
-  server: 62.210.101.0
-  port: 18700
-  uuid: e659661d-8439-46e0-b1ab-d75ceaf73404
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: update.microsoft
-  reality-opts:
-    public-key: PBRc2v9SSXpG4jjQRYNa-kgs8w9V4U3MNLuncd2d0hw
-    short-id: 6ba85179e30d4fc2
 - name: reality_1
   type: vless
   server: 108.181.22.213
@@ -268,17 +254,17 @@ proxies:
     short-id: 6ba85179e30d4fc2
 - name: reality_3
   type: vless
-  server: 108.181.22.213
-  port: 28945
-  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
+  server: 62.210.101.0
+  port: 18700
+  uuid: e659661d-8439-46e0-b1ab-d75ceaf73404
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: m.media-amazon.com
+  servername: update.microsoft
   reality-opts:
-    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
+    public-key: PBRc2v9SSXpG4jjQRYNa-kgs8w9V4U3MNLuncd2d0hw
     short-id: 6ba85179e30d4fc2
 proxy-groups:
 - name: 节点选择
@@ -315,7 +301,6 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - reality_0
   - reality_1
   - reality_2
   - reality_3
@@ -336,7 +321,6 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - reality_0
   - reality_1
   - reality_2
   - reality_3
@@ -357,7 +341,6 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - reality_0
   - reality_1
   - reality_2
   - reality_3
