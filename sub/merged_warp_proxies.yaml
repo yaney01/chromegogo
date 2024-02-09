@@ -58,10 +58,10 @@ proxies:
   client-fingerprint: chrome
 - name: meta_tuic_11
   type: tuic
-  server: 109.104.152.161
-  port: 44550
+  server: 1.162.156.206
+  port: 33098
   udp: true
-  uuid: 0c008b79-86e6-403d-b684-8ba559562c9e
+  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
   password: dongtaiwang.com
   alpn:
   - h3
