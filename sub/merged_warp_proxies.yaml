@@ -2088,7 +2088,7 @@ proxies:
   - h3
 - name: hysteria_2
   type: hysteria
-  server: 36.227.252.101
+  server: www.dtku40.xyz
   port: 18490
   ports: 18490
   auth_str: dongtaiwang.com
