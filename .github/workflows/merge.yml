@@ -5,7 +5,7 @@ on:
   #   branches:
   #     - main  # 替换为你的默认分支
   schedule:
-    - cron: '0 0,4,8,12,16,20 * * *'  
+    - cron: '0 0,6,13,20 * * *'  
   workflow_dispatch:  # 触发手动事件
 jobs:
   merge:
