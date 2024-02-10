@@ -43,12 +43,63 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: meta_tuic_01
+- name: meta_vmess_01
+  type: vmess
+  server: www.darkroom.lol
+  port: 8080
+  cipher: auto
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: www.darkroom.lol
+- name: meta_vmess_02
+  type: vmess
+  server: 172.67.221.183
+  port: 8080
+  cipher: auto
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: www.blueberrywindow.online
+- name: meta_ss_03
+  type: ss
+  server: fast_2ray_telchannelll.fast2rayy.eu.org
+  port: 443
+  password: Bog0ELmMM9DSxDdQ
+  cipher: chacha20-ietf-poly1305
+- name: meta_vmess_04
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  cipher: auto
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: server26.beheshtbaneh.com
+- name: meta_tuic_05
   type: tuic
-  server: 109.104.152.156
-  port: 22334
+  server: 64.31.55.216
+  port: 56789
   udp: true
-  uuid: a8b711e8-b89a-4aff-9ca1-10be9292a502
+  uuid: 9a661a16-675c-4451-ba20-cde666de44ae
   password: dongtaiwang.com
   alpn:
   - h3
@@ -56,6 +107,30 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: meta_ss_06
+  type: ss
+  server: jseyu.arvancode.eu.org
+  port: 443
+  password: Bog0ELmMM9DSxDdQ
+  cipher: chacha20-ietf-poly1305
+- name: meta_ss_07
+  type: ss
+  server: yd.qianggewangluo.buzz
+  port: 10818
+  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
+  cipher: chacha20-ietf-poly1305
+- name: meta_ss_08
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27105
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: meta_ss_09
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27108
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
 - name: meta_vmess_11
   type: vmess
   server: www.darkroom.lol
@@ -2163,7 +2238,15 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - meta_tuic_01
+  - meta_vmess_01
+  - meta_vmess_02
+  - meta_ss_03
+  - meta_vmess_04
+  - meta_tuic_05
+  - meta_ss_06
+  - meta_ss_07
+  - meta_ss_08
+  - meta_ss_09
   - meta_vmess_11
   - meta_vmess_12
   - meta_ss_13
@@ -2349,7 +2432,15 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - meta_tuic_01
+  - meta_vmess_01
+  - meta_vmess_02
+  - meta_ss_03
+  - meta_vmess_04
+  - meta_tuic_05
+  - meta_ss_06
+  - meta_ss_07
+  - meta_ss_08
+  - meta_ss_09
   - meta_vmess_11
   - meta_vmess_12
   - meta_ss_13
@@ -2535,7 +2626,15 @@ proxy-groups:
 - name: 负载均衡
   type: load-balance
   proxies:
-  - meta_tuic_01
+  - meta_vmess_01
+  - meta_vmess_02
+  - meta_ss_03
+  - meta_vmess_04
+  - meta_tuic_05
+  - meta_ss_06
+  - meta_ss_07
+  - meta_ss_08
+  - meta_ss_09
   - meta_vmess_11
   - meta_vmess_12
   - meta_ss_13
