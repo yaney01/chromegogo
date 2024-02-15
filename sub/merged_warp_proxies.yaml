@@ -56,32 +56,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: meta_vmess_12
-  type: vmess
-  server: www.dtku40.xyz
-  port: 18810
-  cipher: auto
-  uuid: afb1ad76-0f6f-4cb8-983a-95f5b4708321
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /9tEYTPFN/
-- name: meta_tuic_21
-  type: tuic
-  server: 109.104.152.101
-  port: 31102
-  udp: true
-  uuid: 7bda06fd-e4af-4115-8aa3-f021832cfa78
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: meta_tuic_31
   type: tuic
   server: 109.104.152.101
@@ -1881,8 +1855,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - meta_tuic_11
-  - meta_vmess_12
-  - meta_tuic_21
   - meta_tuic_31
   - meta_tuic_41
   - meta_vless_51
@@ -2034,8 +2006,6 @@ proxy-groups:
   type: select
   proxies:
   - meta_tuic_11
-  - meta_vmess_12
-  - meta_tuic_21
   - meta_tuic_31
   - meta_tuic_41
   - meta_vless_51
@@ -2187,8 +2157,6 @@ proxy-groups:
   type: load-balance
   proxies:
   - meta_tuic_11
-  - meta_vmess_12
-  - meta_tuic_21
   - meta_tuic_31
   - meta_tuic_41
   - meta_vless_51
