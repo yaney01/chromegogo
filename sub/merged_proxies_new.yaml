@@ -3044,7 +3044,7 @@ proxies:
   down: 55 Mbps
 - name: meta_hysteria2_91
   type: hysteria2
-  server: 45.150.165.84
+  server: 45.145.72.212
   port: 8881
   password: d017e316-82cb-441c-8eea-7b5e9de64a20
   obfs: salamander
