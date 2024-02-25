@@ -3031,6 +3031,19 @@ proxies:
   auth_str: dongtaiwang.com
   up: 2
   down: 10
+- name: meta_vless_91
+  type: vless
+  server: 45.145.72.212
+  port: 11223
+  udp: true
+  uuid: 34d7aac1-fac7-4e17-b41e-5be028d286cd
+  tls: true
+  servername: addons.mozilla.org
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: u24pYS0RqtYk8NBqtg4NIHUZIA0HmwuYw2RBIyt0T0c
+  client-fingerprint: chrome
 - name: hysteria_0
   type: hysteria
   server: 51.158.54.46
@@ -3322,6 +3335,7 @@ proxy-groups:
   - meta_vmess_516
   - meta_hysteria_61
   - meta_hysteria_71
+  - meta_vless_91
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -3535,6 +3549,7 @@ proxy-groups:
   - meta_vmess_516
   - meta_hysteria_61
   - meta_hysteria_71
+  - meta_vless_91
   - hysteria_0
   - hysteria_1
   - hysteria_2
