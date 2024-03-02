@@ -30,6 +30,21 @@ proxies:
   server: fbi.gov
   port: 8080
   cipher: auto
+  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: uh-lawyers-instruments-kernel.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
+    headers:
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: meta_vmess_02
+  type: vmess
+  server: 23.227.38.23
+  port: 8080
+  cipher: auto
   uuid: b36723eb-5493-456d-8cbc-001ee3e9d696
   alterId: 0
   tls: false
@@ -40,7 +55,7 @@ proxies:
     path: b36723eb-5493-456d-8cbc-001ee3e9d696-vm
     headers:
       host: contacting-lp-leads-greece.trycloudflare.com
-- name: meta_vmess_02
+- name: meta_vmess_03
   type: vmess
   server: 23.227.38.44
   port: 8080
@@ -55,36 +70,21 @@ proxies:
     path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
-- name: meta_vmess_03
+- name: meta_vmess_04
   type: vmess
   server: 23.227.38.22
   port: 8080
   cipher: auto
-  uuid: eb6b425d-0a43-4f4b-998f-e83d1b7e0997
+  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: eb6b425d-0a43-4f4b-998f-e83d1b7e0997-vm
+    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
-- name: meta_vmess_04
-  type: vmess
-  server: 23.227.38.23
-  port: 8080
-  cipher: auto
-  uuid: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: uh-lawyers-instruments-kernel.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4-vm
-    headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
 - name: meta_vmess_05
   type: vmess
   server: 23.227.38.11
@@ -105,7 +105,7 @@ proxies:
   server: 162.159.153.11
   port: 8080
   cipher: auto
-  uuid: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4
+  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
   alterId: 0
   tls: false
   skip-cert-verify: true
@@ -135,14 +135,14 @@ proxies:
   server: 162.159.137.31
   port: 8080
   cipher: auto
-  uuid: eb6b425d-0a43-4f4b-998f-e83d1b7e0997
+  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4-vm
+    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_09
@@ -165,14 +165,14 @@ proxies:
   server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4
+  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: uh-lawyers-instruments-kernel.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4-vm
+    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
 - name: meta_vmess_011
@@ -195,14 +195,14 @@ proxies:
   server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: eb6b425d-0a43-4f4b-998f-e83d1b7e0997
+  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: eb6b425d-0a43-4f4b-998f-e83d1b7e0997-vm
+    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_013
@@ -225,14 +225,14 @@ proxies:
   server: yh2.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4
+  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: uh-lawyers-instruments-kernel.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4-vm
+    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
 - name: meta_vmess_015
@@ -255,14 +255,14 @@ proxies:
   server: yh2.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: eb6b425d-0a43-4f4b-998f-e83d1b7e0997
+  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: eb6b425d-0a43-4f4b-998f-e83d1b7e0997-vm
+    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_017
@@ -285,6 +285,21 @@ proxies:
   server: fbi.gov
   port: 8080
   cipher: auto
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: meta_vmess_12
+  type: vmess
+  server: fbi.gov
+  port: 8080
+  cipher: auto
   uuid: 5818310a-92ee-40cd-8303-0dc1396aadda
   alterId: 0
   tls: false
@@ -295,7 +310,7 @@ proxies:
     path: 5818310a-92ee-40cd-8303-0dc1396aadda-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: meta_vmess_12
+- name: meta_vmess_13
   type: vmess
   server: fbi.gov
   port: 8080
@@ -310,21 +325,6 @@ proxies:
     path: c3f22c72-8c9e-4dd1-80e9-cc64b72846a6-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_13
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: pcs-referenced-camera-concerns.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc-vm
-    headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: meta_vmess_14
   type: vmess
   server: fbi.gov
@@ -345,6 +345,21 @@ proxies:
   server: yh1.freeh1.xyz
   port: 8080
   cipher: auto
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: meta_vmess_22
+  type: vmess
+  server: yh1.freeh1.xyz
+  port: 8080
+  cipher: auto
   uuid: 5818310a-92ee-40cd-8303-0dc1396aadda
   alterId: 0
   tls: false
@@ -355,7 +370,7 @@ proxies:
     path: 5818310a-92ee-40cd-8303-0dc1396aadda-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: meta_vmess_22
+- name: meta_vmess_23
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -370,21 +385,6 @@ proxies:
     path: c3f22c72-8c9e-4dd1-80e9-cc64b72846a6-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_23
-  type: vmess
-  server: yh1.freeh1.xyz
-  port: 8080
-  cipher: auto
-  uuid: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: pcs-referenced-camera-concerns.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc-vm
-    headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: meta_vmess_24
   type: vmess
   server: yh1.freeh1.xyz
@@ -435,14 +435,14 @@ proxies:
   server: yh2.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: pcs-referenced-camera-concerns.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc-vm
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
     headers:
       host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: meta_vmess_28
@@ -495,14 +495,14 @@ proxies:
   server: yh3.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: pcs-referenced-camera-concerns.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc-vm
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
     headers:
       host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: meta_vmess_212
@@ -525,31 +525,31 @@ proxies:
   server: yh1.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: eb6b425d-0a43-4f4b-998f-e83d1b7e0997
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: per-essex-patterns-bowling.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: eb6b425d-0a43-4f4b-998f-e83d1b7e0997-vm
-    headers:
-      host: per-essex-patterns-bowling.trycloudflare.com
-- name: meta_vmess_32
-  type: vmess
-  server: yh1.freeh1.xyz
-  port: 8080
-  cipher: auto
-  uuid: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4
+  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: uh-lawyers-instruments-kernel.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4-vm
+    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: meta_vmess_32
+  type: vmess
+  server: yh1.freeh1.xyz
+  port: 8080
+  cipher: auto
+  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: per-essex-patterns-bowling.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
+    headers:
+      host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_33
   type: vmess
   server: yh1.freeh1.xyz
@@ -582,34 +582,34 @@ proxies:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: meta_vmess_41
   type: vmess
-  server: 23.227.39.24
-  port: 8080
-  cipher: auto
-  uuid: eb6b425d-0a43-4f4b-998f-e83d1b7e0997
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: per-essex-patterns-bowling.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: eb6b425d-0a43-4f4b-998f-e83d1b7e0997-vm
-    headers:
-      host: per-essex-patterns-bowling.trycloudflare.com
-- name: meta_vmess_42
-  type: vmess
   server: 23.227.39.12
   port: 8080
   cipher: auto
-  uuid: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4
+  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: uh-lawyers-instruments-kernel.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4-vm
+    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: meta_vmess_42
+  type: vmess
+  server: 23.227.39.24
+  port: 8080
+  cipher: auto
+  uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: per-essex-patterns-bowling.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
+    headers:
+      host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_43
   type: vmess
   server: 23.227.39.23
@@ -645,6 +645,21 @@ proxies:
   server: fbi.gov
   port: 8080
   cipher: auto
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: meta_vmess_52
+  type: vmess
+  server: fbi.gov
+  port: 8080
+  cipher: auto
   uuid: 5818310a-92ee-40cd-8303-0dc1396aadda
   alterId: 0
   tls: false
@@ -655,7 +670,7 @@ proxies:
     path: 5818310a-92ee-40cd-8303-0dc1396aadda-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: meta_vmess_52
+- name: meta_vmess_53
   type: vmess
   server: fbi.gov
   port: 8080
@@ -670,21 +685,6 @@ proxies:
     path: c3f22c72-8c9e-4dd1-80e9-cc64b72846a6-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: meta_vmess_53
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: pcs-referenced-camera-concerns.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc-vm
-    headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: meta_vmess_54
   type: vmess
   server: fbi.gov
@@ -735,14 +735,14 @@ proxies:
   server: yh1.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: pcs-referenced-camera-concerns.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc-vm
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
     headers:
       host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: meta_vmess_58
@@ -795,14 +795,14 @@ proxies:
   server: yh2.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: pcs-referenced-camera-concerns.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc-vm
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
     headers:
       host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: meta_vmess_512
@@ -855,14 +855,14 @@ proxies:
   server: yh3.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: pcs-referenced-camera-concerns.trycloudflare.com
   network: ws
   ws-opts:
-    path: 4f6032e4-ba53-4087-b1e1-8b0ef5ebfebc-vm
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
     headers:
       host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: meta_vmess_516
@@ -917,13 +917,13 @@ proxies:
 - name: meta_ss_91
   type: ss
   server: 62.204.54.81
-  port: 33441
+  port: 44550
   cipher: 2022-blake3-chacha20-poly1305
-  password: NKdY5gGUB1L9FEaG87QL9E5QY2h2UlJtLZndpOLqI30=
+  password: 5IH4rBauUuOT4VpAshgMPMSQ3Tf+oJjDY/jEDbIel2Q=
   plugin: shadow-tls
   plugin-opts:
     host: nijigen-works.jp
-    password: iB1xxyVagUbv+xyRdRFfTvsCFOHy6Aoj94193CRpxEk=
+    password: FHDLxKgzbcDCPmijble8uT1gddgBmOxA1XXeDgyqgGc=
     version: 3
 - name: hysteria_0
   type: hysteria
@@ -981,34 +981,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: reality_2
-  type: vless
-  server: 62.210.101.0
-  port: 18700
-  uuid: e659661d-8439-46e0-b1ab-d75ceaf73404
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: update.microsoft
-  reality-opts:
-    public-key: PBRc2v9SSXpG4jjQRYNa-kgs8w9V4U3MNLuncd2d0hw
-    short-id: 6ba85179e30d4fc2
-- name: reality_3
-  type: vless
-  server: 62.210.101.0
-  port: 18700
-  uuid: e659661d-8439-46e0-b1ab-d75ceaf73404
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: update.microsoft
-  reality-opts:
-    public-key: PBRc2v9SSXpG4jjQRYNa-kgs8w9V4U3MNLuncd2d0hw
-    short-id: 6ba85179e30d4fc2
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1080,8 +1052,6 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - reality_2
-  - reality_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1153,8 +1123,6 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - reality_2
-  - reality_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
